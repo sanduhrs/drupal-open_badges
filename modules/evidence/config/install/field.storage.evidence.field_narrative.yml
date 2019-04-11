@@ -1,0 +1,21 @@
+uuid: b679ba5d-22ce-43df-b1ab-524448c8ecc6
+langcode: en
+status: true
+dependencies:
+  module:
+    - evidence
+_core:
+  default_config_hash: GBhOY-EKewxM6Qn16aZXXjp8A7zbul47ZPK7BYjbljk
+id: evidence.field_narrative
+field_name: field_narrative
+entity_type: evidence
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

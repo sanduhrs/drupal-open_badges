@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains issuer.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function issuer_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the issuer module.
+    case 'help.page.issuer':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('open Badges Issuer') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function issuer_theme() {
+  return [
+    'issuer' => [
+      'render element' => 'children',
+    ],
+  ];
+}

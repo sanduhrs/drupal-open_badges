@@ -1,0 +1,5 @@
+entity.evidence.add_form:
+  route_name: entity.evidence.add_form
+  title: 'Add Evidence'
+  appears_on:
+    - entity.evidence.collection

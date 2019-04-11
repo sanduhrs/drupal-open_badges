@@ -1,0 +1,75 @@
+uuid: 7f4cc005-6c96-4182-9f90-15fe7738276f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.issuer.issuer.field_description
+    - field.field.issuer.issuer.field_email
+    - field.field.issuer.issuer.field_image
+    - field.field.issuer.issuer.field_telephone
+    - field.field.issuer.issuer.field_url
+  module:
+    - image
+    - issuer
+    - link
+    - telephone
+_core:
+  default_config_hash: ANdEuKol3fDPCEIwUEP6wAs0dvJuZ5ndpOeSgnovE2c
+id: issuer.issuer.default
+targetEntityType: issuer
+bundle: issuer
+mode: default
+content:
+  field_description:
+    type: basic_string
+    weight: 2
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_email:
+    type: email_mailto
+    weight: 3
+    region: content
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 1
+    region: content
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_telephone:
+    type: telephone_link
+    weight: 5
+    region: content
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+  field_url:
+    type: link
+    weight: 4
+    region: content
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  name:
+    type: string
+    weight: 0
+    region: content
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  user_id: true

@@ -1,0 +1,40 @@
+{#
+/**
+ * @file issuer.html.twig
+ * Default theme implementation to present Issuer data.
+ *
+ * This template is used when viewing Issuer pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_issuer()
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes.addClass('issuer') }}>
+
+  {% if children.field_image %}
+    {{- children.field_image -}}
+  {% endif %}
+
+  {% if children.field_description %}
+    {{- children.field_description -}}
+  {% endif %}
+
+  {% if children.field_email %}
+    {{- children.field_email -}}
+  {% endif %}
+
+  {% if children.field_url %}
+    {{- children.field_url -}}
+  {% endif %}
+
+  {% if children.field_telephone %}
+    {{- children.field_telephone -}}
+  {% endif %}
+
+</article>

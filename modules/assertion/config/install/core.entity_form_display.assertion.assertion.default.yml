@@ -1,0 +1,107 @@
+uuid: d0d8fcd1-5052-4c6f-9d52-10a28b8c4552
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.assertion.assertion.field_badge
+    - field.field.assertion.assertion.field_evidence
+    - field.field.assertion.assertion.field_expires
+    - field.field.assertion.assertion.field_image
+    - field.field.assertion.assertion.field_narrative
+    - field.field.assertion.assertion.field_recipient
+    - field.field.assertion.assertion.field_revocation_reason
+    - field.field.assertion.assertion.field_revoked
+    - image.style.thumbnail
+  module:
+    - assertion
+    - datetime
+    - image
+    - inline_entity_form
+_core:
+  default_config_hash: G66NKFWPoZozmimsfudCS1P1ZJ0R8ZeOQpryHA-wwQw
+id: assertion.assertion.default
+targetEntityType: assertion
+bundle: assertion
+mode: default
+content:
+  field_badge:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_evidence:
+    weight: 4
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      match_operator: CONTAINS
+      override_labels: false
+      collapsible: false
+      collapsed: false
+      allow_existing: false
+      allow_duplicate: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  field_expires:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_narrative:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_recipient:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_revocation_reason:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_revoked:
+    weight: 7
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  user_id: true

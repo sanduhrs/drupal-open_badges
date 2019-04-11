@@ -1,0 +1,30 @@
+add recipient entities:
+  title: 'Create new Recipient entities'
+
+administer recipient entities:
+  title: 'Administer Recipient entities'
+  description: 'Allow to access the administration form to configure Recipient entities.'
+  restrict access: true
+
+delete recipient entities:
+  title: 'Delete Recipient entities'
+
+edit recipient entities:
+  title: 'Edit Recipient entities'
+
+view published recipient entities:
+  title: 'View published Recipient entities'
+
+view unpublished recipient entities:
+  title: 'View unpublished Recipient entities'
+
+view all recipient revisions:
+  title: 'View all Recipient revisions'
+
+revert all recipient revisions:
+  title: 'Revert all Recipient revisions'
+  description: 'Role requires permission <em>view Recipient revisions</em> and <em>edit rights</em> for recipient entities in question or <em>administer recipient entities</em>.'
+
+delete all recipient revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Recipient revisions</em> and <em>delete rights</em> for recipient entities in question or <em>administer recipient entities</em>.'

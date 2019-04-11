@@ -1,0 +1,30 @@
+add badge entities:
+  title: 'Create new Badge entities'
+
+administer badge entities:
+  title: 'Administer Badge entities'
+  description: 'Allow to access the administration form to configure Badge entities.'
+  restrict access: true
+
+delete badge entities:
+  title: 'Delete Badge entities'
+
+edit badge entities:
+  title: 'Edit Badge entities'
+
+view published badge entities:
+  title: 'View published Badge entities'
+
+view unpublished badge entities:
+  title: 'View unpublished Badge entities'
+
+view all badge revisions:
+  title: 'View all Badge revisions'
+
+revert all badge revisions:
+  title: 'Revert all Badge revisions'
+  description: 'Role requires permission <em>view Badge revisions</em> and <em>edit rights</em> for badge entities in question or <em>administer badge entities</em>.'
+
+delete all badge revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Badge revisions</em> and <em>delete rights</em> for badge entities in question or <em>administer badge entities</em>.'

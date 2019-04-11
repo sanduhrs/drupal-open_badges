@@ -1,0 +1,21 @@
+uuid: e539ee54-936e-44ae-8afe-13a55642ea3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - issuer
+    - telephone
+_core:
+  default_config_hash: G5iEu8jj2lOVfa_BmmgRr_0xSNmyRmDLvEc3_z5WUYs
+id: issuer.field_telephone
+field_name: field_telephone
+entity_type: issuer
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

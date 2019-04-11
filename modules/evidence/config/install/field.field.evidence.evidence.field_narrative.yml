@@ -1,0 +1,22 @@
+uuid: b25e5a04-fd09-476b-a156-742541c1418a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.evidence.field_narrative
+  module:
+    - evidence
+_core:
+  default_config_hash: SfryRnEGnbxZTQ1RDlKU6MI6aTGWGhZ6P5qfx7lHMmI
+id: evidence.evidence.field_narrative
+field_name: field_narrative
+entity_type: evidence
+bundle: evidence
+label: Narrative
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

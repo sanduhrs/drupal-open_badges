@@ -1,0 +1,30 @@
+add evidence entities:
+  title: 'Create new Evidence entities'
+
+administer evidence entities:
+  title: 'Administer Evidence entities'
+  description: 'Allow to access the administration form to configure Evidence entities.'
+  restrict access: true
+
+delete evidence entities:
+  title: 'Delete Evidence entities'
+
+edit evidence entities:
+  title: 'Edit Evidence entities'
+
+view published evidence entities:
+  title: 'View published Evidence entities'
+
+view unpublished evidence entities:
+  title: 'View unpublished Evidence entities'
+
+view all evidence revisions:
+  title: 'View all Evidence revisions'
+
+revert all evidence revisions:
+  title: 'Revert all Evidence revisions'
+  description: 'Role requires permission <em>view Evidence revisions</em> and <em>edit rights</em> for evidence entities in question or <em>administer evidence entities</em>.'
+
+delete all evidence revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Evidence revisions</em> and <em>delete rights</em> for evidence entities in question or <em>administer evidence entities</em>.'

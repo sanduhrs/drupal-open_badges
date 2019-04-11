@@ -1,0 +1,32 @@
+uuid: 616c7aa9-92ec-491c-b1a5-821eacb66bad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.evidence.field_genre
+    - taxonomy.vocabulary.open_badges_evidence_genre
+  module:
+    - evidence
+_core:
+  default_config_hash: QOCJthKfkJpu0o7Cd_4DicZoeysgPfvEhzHA0yOegkg
+id: evidence.evidence.field_genre
+field_name: field_genre
+entity_type: evidence
+bundle: evidence
+label: Genre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      open_badges_evidence_genre: open_badges_evidence_genre
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

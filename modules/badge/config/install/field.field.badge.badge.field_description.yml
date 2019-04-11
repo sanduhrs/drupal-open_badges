@@ -1,0 +1,20 @@
+uuid: 338d2dcc-ea8c-40d3-a5e0-a3644667525d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.badge.field_description
+  module:
+    - badge
+id: badge.badge.field_description
+field_name: field_description
+entity_type: badge
+bundle: badge
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

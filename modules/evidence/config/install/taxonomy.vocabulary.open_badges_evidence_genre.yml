@@ -1,0 +1,11 @@
+uuid: ada31d58-7ba2-4135-ae58-627ad916edea
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Mzk2DhINFr9_RLxDamXIlC0xSjeSKR4Nx0XFzkKodxE
+name: 'Open Badges Evidence Genre'
+vid: open_badges_evidence_genre
+description: ''
+hierarchy: 0
+weight: 0

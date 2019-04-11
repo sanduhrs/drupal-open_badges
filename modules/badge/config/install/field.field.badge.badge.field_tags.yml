@@ -1,0 +1,30 @@
+uuid: 5a72784d-f8f7-4d83-abe5-9ad2d3acb097
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.badge.field_tags
+    - taxonomy.vocabulary.open_badges_badge_tags
+  module:
+    - badge
+id: badge.badge.field_tags
+field_name: field_tags
+entity_type: badge
+bundle: badge
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      open_badges_badge_tags: open_badges_badge_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 6b65049b-4b56-4496-a8b2-d7ef861fe781
+langcode: en
+status: true
+dependencies:
+  module:
+    - evidence
+    - taxonomy
+_core:
+  default_config_hash: 92sqNBObYP5bJznZ1bOPoMHHT82vAN6STAbs5bXjPhs
+id: evidence.field_genre
+field_name: field_genre
+entity_type: evidence
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

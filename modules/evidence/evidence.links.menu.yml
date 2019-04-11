@@ -1,0 +1,5 @@
+evidence.admin.structure.settings:
+  title: 'Evidence settings'
+  description: 'Configure Evidence entities'
+  route_name: evidence.settings
+  parent: system.admin_structure

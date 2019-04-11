@@ -1,0 +1,20 @@
+uuid: 98299674-0960-4ab8-97ac-0dc258d6a650
+langcode: en
+status: true
+dependencies:
+  module:
+    - issuer
+_core:
+  default_config_hash: giOme9A2_yr7CnuOBCNFvFOhGrLhvedMgbzomGHQRuo
+id: issuer.field_email
+field_name: field_email
+entity_type: issuer
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

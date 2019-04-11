@@ -1,0 +1,5 @@
+entity.issuer.add_form:
+  route_name: entity.issuer.add_form
+  title: 'Add Issuer'
+  appears_on:
+    - entity.issuer.collection

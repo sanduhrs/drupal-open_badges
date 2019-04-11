@@ -1,0 +1,26 @@
+issuer.settings_tab:
+  route_name: issuer.settings
+  title: 'Settings'
+  base_route: issuer.settings
+entity.issuer.collection:
+  title: Issuers
+  route_name: entity.issuer.collection
+  base_route: system.admin_content
+  weight: 10
+entity.issuer.canonical:
+  route_name: entity.issuer.canonical
+  base_route: entity.issuer.canonical
+  title: 'View'
+entity.issuer.edit_form:
+  route_name: entity.issuer.edit_form
+  base_route: entity.issuer.canonical
+  title: 'Edit'
+entity.issuer.version_history:
+  route_name: entity.issuer.version_history
+  base_route: entity.issuer.canonical
+  title: 'Revisions'
+entity.issuer.delete_form:
+  route_name:  entity.issuer.delete_form
+  base_route:  entity.issuer.canonical
+  title: Delete
+  weight: 10

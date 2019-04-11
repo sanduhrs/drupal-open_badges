@@ -1,0 +1,22 @@
+uuid: d075e74e-5685-484d-aff5-1e42980aadd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipient.field_email
+  module:
+    - recipient
+_core:
+  default_config_hash: rkqfq-iT2oq3H1xjPNhxbJ_ncyctlf1misl0SlNnRtc
+id: recipient.recipient.field_email
+field_name: field_email
+entity_type: recipient
+bundle: recipient
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

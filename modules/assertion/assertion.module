@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains assertion.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function assertion_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the assertion module.
+    case 'help.page.assertion':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Open Badges Assertion') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function assertion_theme() {
+  return [
+    'assertion' => [
+      'render element' => 'children',
+    ],
+  ];
+}

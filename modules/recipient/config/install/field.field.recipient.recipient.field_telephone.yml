@@ -1,0 +1,23 @@
+uuid: d8c83afd-596b-47db-b9cc-4169e3e87e83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipient.field_telephone
+  module:
+    - recipient
+    - telephone
+_core:
+  default_config_hash: 0FNHx0j_xe5mm8Wwz2GONZRhli_uD1MlW1Rs44Y9Ehg
+id: recipient.recipient.field_telephone
+field_name: field_telephone
+entity_type: recipient
+bundle: recipient
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

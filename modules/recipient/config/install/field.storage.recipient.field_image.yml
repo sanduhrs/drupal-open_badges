@@ -1,0 +1,32 @@
+uuid: 3e30065f-cffe-41c2-a9ac-ebcbd8481e07
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - recipient
+_core:
+  default_config_hash: g62VbUGw6p5EPuzreWoNjZd4XDedqnrF0sJ7QhbdRQc
+id: recipient.field_image
+field_name: field_image
+entity_type: recipient
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

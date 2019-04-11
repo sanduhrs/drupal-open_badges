@@ -1,0 +1,5 @@
+entity.assertion.add_form:
+  route_name: entity.assertion.add_form
+  title: 'Add Assertion'
+  appears_on:
+    - entity.assertion.collection

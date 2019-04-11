@@ -1,0 +1,5 @@
+badge.admin.structure.settings:
+  title: 'Badge settings'
+  description: 'Configure Badge entities'
+  route_name: badge.settings
+  parent: system.admin_structure

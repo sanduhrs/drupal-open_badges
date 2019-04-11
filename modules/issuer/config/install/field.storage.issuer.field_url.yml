@@ -1,0 +1,21 @@
+uuid: ce36a58f-59c0-46f5-817a-d6883b6ad116
+langcode: en
+status: true
+dependencies:
+  module:
+    - issuer
+    - link
+_core:
+  default_config_hash: dy9yietGIoZzTW1FfrOrtIKHADx_UAVf4pWzcSUsdkM
+id: issuer.field_url
+field_name: field_url
+entity_type: issuer
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

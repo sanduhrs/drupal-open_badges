@@ -1,0 +1,44 @@
+{#
+/**
+ * @file badge.html.twig
+ * Default theme implementation to present Badge data.
+ *
+ * This template is used when viewing Badge pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_badge()
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes.addClass('badge') }}>
+
+  {% if children.field_image %}
+    {{- children.field_image -}}
+  {% endif %}
+
+  {% if children.field_description %}
+    {{- children.field_description -}}
+  {% endif %}
+
+  {% if children.field_issuer %}
+    {{- children.field_issuer -}}
+  {% endif %}
+
+  {% if children.field_criteria %}
+    {{- children.field_criteria -}}
+  {% endif %}
+
+  {% if children.field_alignment %}
+    {{- children.field_alignment -}}
+  {% endif %}
+
+  {% if children.field_tags %}
+    {{- children.field_tags -}}
+  {% endif %}
+
+</article>

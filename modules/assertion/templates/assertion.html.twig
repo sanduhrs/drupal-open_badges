@@ -1,0 +1,52 @@
+{#
+/**
+ * @file assertion.html.twig
+ * Default theme implementation to present Assertion data.
+ *
+ * This template is used when viewing Assertion pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_assertion()
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes.addClass('assertion') }}>
+
+  {% if children.field_image %}
+    {{- children.field_image -}}
+  {% endif %}
+
+  {% if children.field_recipient %}
+    {{- children.field_recipient -}}
+  {% endif %}
+
+  {% if children.field_badge %}
+    {{- children.field_badge -}}
+  {% endif %}
+
+  {% if children.field_evidence %}
+    {{- children.field_evidence -}}
+  {% endif %}
+
+  {% if children.field_narrative %}
+    {{- children.field_narrative -}}
+  {% endif %}
+
+  {% if children.field_expires %}
+    {{- children.field_expires -}}
+  {% endif %}
+
+  {% if children.field_revoked %}
+    {{- children.field_revoked -}}
+  {% endif %}
+
+  {% if children.field_revocation_reason %}
+    {{- children.field_revocation_reason -}}
+  {% endif %}
+
+</article>

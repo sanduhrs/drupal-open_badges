@@ -1,0 +1,26 @@
+evidence.settings_tab:
+  route_name: evidence.settings
+  title: 'Settings'
+  base_route: evidence.settings
+entity.evidence.collection:
+  title: Evidence
+  route_name: entity.evidence.collection
+  base_route: system.admin_content
+  weight: 30
+entity.evidence.canonical:
+  route_name: entity.evidence.canonical
+  base_route: entity.evidence.canonical
+  title: 'View'
+entity.evidence.edit_form:
+  route_name: entity.evidence.edit_form
+  base_route: entity.evidence.canonical
+  title: 'Edit'
+entity.evidence.version_history:
+  route_name: entity.evidence.version_history
+  base_route: entity.evidence.canonical
+  title: 'Revisions'
+entity.evidence.delete_form:
+  route_name:  entity.evidence.delete_form
+  base_route:  entity.evidence.canonical
+  title: Delete
+  weight: 10

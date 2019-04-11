@@ -1,0 +1,26 @@
+badge.settings_tab:
+  route_name: badge.settings
+  title: 'Settings'
+  base_route: badge.settings
+entity.badge.collection:
+  title: Badges
+  route_name: entity.badge.collection
+  base_route: system.admin_content
+  weight: 20
+entity.badge.canonical:
+  route_name: entity.badge.canonical
+  base_route: entity.badge.canonical
+  title: 'View'
+entity.badge.edit_form:
+  route_name: entity.badge.edit_form
+  base_route: entity.badge.canonical
+  title: 'Edit'
+entity.badge.version_history:
+  route_name: entity.badge.version_history
+  base_route: entity.badge.canonical
+  title: 'Revisions'
+entity.badge.delete_form:
+  route_name:  entity.badge.delete_form
+  base_route:  entity.badge.canonical
+  title: Delete
+  weight: 10

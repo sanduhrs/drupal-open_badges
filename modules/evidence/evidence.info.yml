@@ -1,0 +1,10 @@
+name: 'Evidence'
+type: module
+description: 'Open Badges Evidence'
+core: 8.x
+package: 'Open Badges'
+dependencies:
+  - open_badges:evidence
+  - core:link
+  - core:taxonomy
+  - core:user

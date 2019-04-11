@@ -1,0 +1,14 @@
+name: 'Assertion'
+type: module
+description: 'Open Badges Assertion'
+core: 8.x
+package: 'Open Badges'
+dependencies:
+  - open_badges:badge
+  - open_badges:evidence
+  - open_badges:issuer
+  - open_badges:recipient
+  - core:datetime
+  - core:file
+  - core:image
+  - inline_entity_form

@@ -1,0 +1,21 @@
+uuid: 5632dba9-0307-4e7f-8e3d-6a4a0f1189f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - badge
+id: badge.field_description
+field_name: field_description
+entity_type: badge
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

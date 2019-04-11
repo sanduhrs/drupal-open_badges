@@ -1,0 +1,21 @@
+uuid: 52d9ef06-db5d-4db0-b406-82e16e5d6496
+langcode: en
+status: true
+dependencies:
+  module:
+    - recipient
+    - telephone
+_core:
+  default_config_hash: dwGDVqf28Sjjl1bc7WbakxabcjY3gQCmiCSdjwO8g4A
+id: recipient.field_telephone
+field_name: field_telephone
+entity_type: recipient
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

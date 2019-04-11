@@ -1,0 +1,22 @@
+uuid: ca2a5632-d196-47ef-93ba-d37ae8009ba0
+langcode: en
+status: true
+dependencies:
+  module:
+    - assertion
+    - recipient
+_core:
+  default_config_hash: nDaqBW9jOy-akSAS51pUI5vSrV_n1oX0lc3a14IEzgE
+id: assertion.field_recipient
+field_name: field_recipient
+entity_type: assertion
+type: entity_reference
+settings:
+  target_type: recipient
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

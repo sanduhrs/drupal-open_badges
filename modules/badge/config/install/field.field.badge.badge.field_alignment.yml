@@ -1,0 +1,23 @@
+uuid: 307798d5-aff0-46ae-be73-953e27861999
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.badge.field_alignment
+  module:
+    - badge
+    - link
+id: badge.badge.field_alignment
+field_name: field_alignment
+entity_type: badge
+bundle: badge
+label: Alignment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

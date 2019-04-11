@@ -1,0 +1,13 @@
+badge.badge_json_controller_build:
+  path: '/badge/{badge}'
+  defaults:
+    _title: 'Badge'
+    _controller: '\Drupal\badge\Controller\BadgeJsonController::build'
+    _format: 'json'
+  requirements:
+    _permission: 'access content'
+    _format: 'json'
+  options:
+    parameters:
+      badge:
+        type: entity:badge

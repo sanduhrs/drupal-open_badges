@@ -1,0 +1,36 @@
+{#
+/**
+ * @file recipient.html.twig
+ * Default theme implementation to present Recipient data.
+ *
+ * This template is used when viewing Recipient pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_recipient()
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes.addClass('badge') }}>
+
+  {% if children.field_image %}
+    {{- children.field_image -}}
+  {% endif %}
+
+  {% if children.field_url %}
+    {{- children.field_url -}}
+  {% endif %}
+
+  {% if children.field_email %}
+    {{- children.field_email -}}
+  {% endif %}
+
+  {% if children.field_telephone %}
+    {{- children.field_telephone -}}
+  {% endif %}
+
+</article>

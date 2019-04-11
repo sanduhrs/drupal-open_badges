@@ -1,0 +1,80 @@
+uuid: 436ba4eb-ccf2-46cc-aca2-8fb88f54cec0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.issuer.issuer.field_description
+    - field.field.issuer.issuer.field_email
+    - field.field.issuer.issuer.field_image
+    - field.field.issuer.issuer.field_telephone
+    - field.field.issuer.issuer.field_url
+    - image.style.thumbnail
+  module:
+    - image
+    - issuer
+    - link
+    - telephone
+_core:
+  default_config_hash: 0-wJPyqrOhWN5PbJiAtJ7U8SGAmy-jp0bAGPkjDRaZk
+id: issuer.issuer.default
+targetEntityType: issuer
+bundle: issuer
+mode: default
+content:
+  field_description:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_image:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_telephone:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_url:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

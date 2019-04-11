@@ -1,0 +1,22 @@
+uuid: bd241c16-cd2b-4a14-98f2-dc569aab566c
+langcode: en
+status: true
+dependencies:
+  module:
+    - assertion
+    - datetime
+_core:
+  default_config_hash: aJkMFA-cnvOie78bKiuuILoVg3Pa0fulpHf5qgDZEwE
+id: assertion.field_expires
+field_name: field_expires
+entity_type: assertion
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

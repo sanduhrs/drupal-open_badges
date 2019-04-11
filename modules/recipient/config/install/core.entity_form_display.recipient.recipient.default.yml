@@ -1,0 +1,71 @@
+uuid: 1da31e09-2684-4605-b10f-ec011118267d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.recipient.recipient.field_email
+    - field.field.recipient.recipient.field_image
+    - field.field.recipient.recipient.field_telephone
+    - field.field.recipient.recipient.field_url
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - recipient
+    - telephone
+_core:
+  default_config_hash: ukyP6CLmSD28UKBeL9g8NCz6LunnWUpjiXCBwjPVtOE
+id: recipient.recipient.default
+targetEntityType: recipient
+bundle: recipient
+mode: default
+content:
+  field_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_image:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_telephone:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_url:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

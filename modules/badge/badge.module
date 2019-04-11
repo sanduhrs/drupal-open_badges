@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains badge.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function badge_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the badge module.
+    case 'help.page.badge':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Open Badges Badge') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function badge_theme() {
+  return [
+    'badge' => [
+      'render element' => 'children',
+    ],
+  ];
+}

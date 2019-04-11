@@ -1,0 +1,22 @@
+uuid: 8cfb3d72-96a3-4e48-9b1c-e29371a2465f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.evidence.field_audience
+  module:
+    - evidence
+_core:
+  default_config_hash: '-4KT80s5Z3OoVyVf0J9wbtG6qw4LyGxF1hZiGYRaJBA'
+id: evidence.evidence.field_audience
+field_name: field_audience
+entity_type: evidence
+bundle: evidence
+label: Audience
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,21 @@
+uuid: 484a14dc-e2d3-460b-9f6f-b74e87261b5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - assertion
+_core:
+  default_config_hash: VOL9hy2XeBYfqnINNLaNeN5p-o8_fhKX6H5PHPoX2YM
+id: assertion.field_narrative
+field_name: field_narrative
+entity_type: assertion
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

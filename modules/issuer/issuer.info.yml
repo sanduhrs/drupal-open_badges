@@ -1,0 +1,11 @@
+name: 'Issuer'
+type: module
+description: 'open Badges Issuer'
+core: 8.x
+package: 'Open Badges'
+dependencies:
+  - open_badges:issuer
+  - core:file
+  - core:image
+  - core:link
+  - core:telephone

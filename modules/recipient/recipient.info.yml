@@ -1,0 +1,11 @@
+name: 'Recipient'
+type: module
+description: 'Open Badges Recipient'
+core: 8.x
+package: 'Open Badges'
+dependencies:
+  - core:file
+  - core:image
+  - core:link
+  - core:telephone
+  - open_badges:recipient

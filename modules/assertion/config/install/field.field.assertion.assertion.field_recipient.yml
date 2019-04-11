@@ -1,0 +1,29 @@
+uuid: 9ad1d62a-e1ca-48c0-a45a-b26bf07dc595
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.assertion.field_recipient
+  module:
+    - assertion
+_core:
+  default_config_hash: r-jVxubpkk6FcKXgUIVXKn0C1dmPlfqdESQh9se23F8
+id: assertion.assertion.field_recipient
+field_name: field_recipient
+entity_type: assertion
+bundle: assertion
+label: Recipient
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:recipient'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

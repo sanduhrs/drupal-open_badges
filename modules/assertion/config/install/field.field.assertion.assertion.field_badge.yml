@@ -1,0 +1,29 @@
+uuid: 9c4fca65-1a39-4fdf-a03a-306e3d53c147
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.assertion.field_badge
+  module:
+    - assertion
+_core:
+  default_config_hash: FLueusRZQCmYSe-Jt171B5Z-Q-J6oMFFo0AwKs72D2Q
+id: assertion.assertion.field_badge
+field_name: field_badge
+entity_type: assertion
+bundle: assertion
+label: Badge
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:badge'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

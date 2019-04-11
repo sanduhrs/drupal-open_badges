@@ -1,0 +1,22 @@
+uuid: a78a994a-080d-43b2-8a36-ceefd915b3f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.assertion.field_revocation_reason
+  module:
+    - assertion
+_core:
+  default_config_hash: TKf4BDPe86Nah7AINXSSYZ_oDMCGv-3OR267y_IE7yA
+id: assertion.assertion.field_revocation_reason
+field_name: field_revocation_reason
+entity_type: assertion
+bundle: assertion
+label: 'Revocation Reason'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,9 @@
+uuid: 3bee64c3-01a7-4da3-9999-2e5b20bace95
+langcode: en
+status: true
+dependencies: {  }
+name: 'Open Badges Badge Tags'
+vid: open_badges_badge_tags
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,20 @@
+uuid: 8b9edf50-0504-4a8b-bfa7-ce63e6133e7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - assertion
+_core:
+  default_config_hash: HvKFzAm68zXNR1E0ZjVNV7OlGt8u9XdyPR5sN-porYA
+id: assertion.field_revoked
+field_name: field_revoked
+entity_type: assertion
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,5 @@
+recipient.admin.structure.settings:
+  title: 'Recipient settings'
+  description: 'Configure Recipient entities'
+  route_name: recipient.settings
+  parent: system.admin_structure

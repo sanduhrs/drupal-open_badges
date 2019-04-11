@@ -1,0 +1,26 @@
+recipient.settings_tab:
+  route_name: recipient.settings
+  title: 'Settings'
+  base_route: recipient.settings
+entity.recipient.collection:
+  title: Recipients
+  route_name: entity.recipient.collection
+  base_route: system.admin_content
+  weight: 20
+entity.recipient.canonical:
+  route_name: entity.recipient.canonical
+  base_route: entity.recipient.canonical
+  title: 'View'
+entity.recipient.edit_form:
+  route_name: entity.recipient.edit_form
+  base_route: entity.recipient.canonical
+  title: 'Edit'
+entity.recipient.version_history:
+  route_name: entity.recipient.version_history
+  base_route: entity.recipient.canonical
+  title: 'Revisions'
+entity.recipient.delete_form:
+  route_name:  entity.recipient.delete_form
+  base_route:  entity.recipient.canonical
+  title: Delete
+  weight: 10

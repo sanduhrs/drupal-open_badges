@@ -1,0 +1,5 @@
+assertion.admin.structure.settings:
+  title: 'Assertion settings'
+  description: 'Configure Assertion entities'
+  route_name: assertion.settings
+  parent: system.admin_structure

@@ -1,0 +1,22 @@
+{#
+/**
+ * @file evidence.html.twig
+ * Default theme implementation to present Evidence data.
+ *
+ * This template is used when viewing Evidence pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_evidence()
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes.addClass('evidence') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</article>

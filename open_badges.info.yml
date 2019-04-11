@@ -1,0 +1,11 @@
+name: 'Open Badges'
+type: module
+description: 'Mozilla Open Badges'
+core: 8.x
+package: 'Open Badges'
+dependencies:
+  - open_badges:assertion
+  - open_badges:badge
+  - open_badges:evidence
+  - open_badges:issuer
+  - open_badges:recipient

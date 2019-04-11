@@ -1,0 +1,26 @@
+assertion.settings_tab:
+  route_name: assertion.settings
+  title: 'Settings'
+  base_route: assertion.settings
+entity.assertion.collection:
+  title: Assertions
+  route_name: entity.assertion.collection
+  base_route: system.admin_content
+  weight: 30
+entity.assertion.canonical:
+  route_name: entity.assertion.canonical
+  base_route: entity.assertion.canonical
+  title: 'View'
+entity.assertion.edit_form:
+  route_name: entity.assertion.edit_form
+  base_route: entity.assertion.canonical
+  title: 'Edit'
+entity.assertion.version_history:
+  route_name: entity.assertion.version_history
+  base_route: entity.assertion.canonical
+  title: 'Revisions'
+entity.assertion.delete_form:
+  route_name:  entity.assertion.delete_form
+  base_route:  entity.assertion.canonical
+  title: Delete
+  weight: 10

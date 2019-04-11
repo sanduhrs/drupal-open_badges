@@ -1,0 +1,30 @@
+add issuer entities:
+  title: 'Create new Issuer entities'
+
+administer issuer entities:
+  title: 'Administer Issuer entities'
+  description: 'Allow to access the administration form to configure Issuer entities.'
+  restrict access: true
+
+delete issuer entities:
+  title: 'Delete Issuer entities'
+
+edit issuer entities:
+  title: 'Edit Issuer entities'
+
+view published issuer entities:
+  title: 'View published Issuer entities'
+
+view unpublished issuer entities:
+  title: 'View unpublished Issuer entities'
+
+view all issuer revisions:
+  title: 'View all Issuer revisions'
+
+revert all issuer revisions:
+  title: 'Revert all Issuer revisions'
+  description: 'Role requires permission <em>view Issuer revisions</em> and <em>edit rights</em> for issuer entities in question or <em>administer issuer entities</em>.'
+
+delete all issuer revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Issuer revisions</em> and <em>delete rights</em> for issuer entities in question or <em>administer issuer entities</em>.'

@@ -1,0 +1,25 @@
+uuid: 83d3f362-dcbb-46bb-8b8a-4e3e334db466
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.evidence.field_url
+  module:
+    - evidence
+    - link
+_core:
+  default_config_hash: 0xDqDQHBG7IQz2yIF-FYMiP5OkwA23Q_ZuU1I2JZyQk
+id: evidence.evidence.field_url
+field_name: field_url
+entity_type: evidence
+bundle: evidence
+label: URL
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

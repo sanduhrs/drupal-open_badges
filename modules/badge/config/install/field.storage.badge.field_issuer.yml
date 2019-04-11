@@ -1,0 +1,22 @@
+uuid: b0ee385c-6c4d-4a20-a022-ba4b9e2d3098
+langcode: en
+status: true
+dependencies:
+  module:
+    - badge
+    - issuer
+_core:
+  default_config_hash: 2xF3iYqAKhPMRr4ENusrAVD0q2fCHwmfVnuTZoQmMEk
+id: badge.field_issuer
+field_name: field_issuer
+entity_type: badge
+type: entity_reference
+settings:
+  target_type: issuer
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

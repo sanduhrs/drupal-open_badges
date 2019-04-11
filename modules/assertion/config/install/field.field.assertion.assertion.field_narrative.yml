@@ -1,0 +1,22 @@
+uuid: 0933b4f1-d365-4a16-8519-b9016c26ea58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.assertion.field_narrative
+  module:
+    - assertion
+_core:
+  default_config_hash: dVp8pTrOQwSvDsd7NOgN6KFLnHsfgXwAc0uUOGVROow
+id: assertion.assertion.field_narrative
+field_name: field_narrative
+entity_type: assertion
+bundle: assertion
+label: Narrative
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

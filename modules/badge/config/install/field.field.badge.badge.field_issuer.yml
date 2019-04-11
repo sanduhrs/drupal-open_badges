@@ -1,0 +1,29 @@
+uuid: 4c4d4a65-3370-4e34-8d8d-bf71e1df1170
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.badge.field_issuer
+  module:
+    - badge
+_core:
+  default_config_hash: hSu-sjQ-jWbpDschuZNpDmUJMtZXghXghMIsVKbif6E
+id: badge.badge.field_issuer
+field_name: field_issuer
+entity_type: badge
+bundle: badge
+label: Issuer
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:issuer'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

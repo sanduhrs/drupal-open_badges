@@ -1,0 +1,12 @@
+name: 'Badge'
+type: module
+description: 'Open Badges Badge'
+core: 8.x
+package: 'Open Badges'
+dependencies:
+  - open_badges:badge
+  - open_badges:issuer
+  - core:file
+  - core:image
+  - core:link
+  - core:taxonomy

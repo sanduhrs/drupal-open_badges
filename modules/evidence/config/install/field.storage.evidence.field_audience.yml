@@ -1,0 +1,21 @@
+uuid: 6306a00b-0877-470e-ac1e-83bcd041fce4
+langcode: en
+status: true
+dependencies:
+  module:
+    - evidence
+_core:
+  default_config_hash: 4MOeAXjka42FgxoAE0yd8UwRCqpvj-p_rfP9CNghnFg
+id: evidence.field_audience
+field_name: field_audience
+entity_type: evidence
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

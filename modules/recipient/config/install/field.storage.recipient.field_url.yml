@@ -1,0 +1,21 @@
+uuid: 87b1f676-6723-4fe1-b6fd-448a5c0b2946
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - recipient
+_core:
+  default_config_hash: uiwOX85MCyo8pjULUrw8o9k7Jawp4t3nkKgBu0XSJ28
+id: recipient.field_url
+field_name: field_url
+entity_type: recipient
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

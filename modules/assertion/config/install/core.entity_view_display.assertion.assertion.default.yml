@@ -1,0 +1,56 @@
+uuid: 75bb5543-5cbc-4f4b-bff7-b0113002c804
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.assertion.assertion.field_badge
+    - field.field.assertion.assertion.field_evidence
+    - field.field.assertion.assertion.field_expires
+    - field.field.assertion.assertion.field_image
+    - field.field.assertion.assertion.field_narrative
+    - field.field.assertion.assertion.field_recipient
+    - field.field.assertion.assertion.field_revocation_reason
+    - field.field.assertion.assertion.field_revoked
+  module:
+    - assertion
+    - image
+_core:
+  default_config_hash: KWz73h3fUoO9f7xt5kKkxtK05DpD76faN4r1nwju5Lo
+id: assertion.assertion.default
+targetEntityType: assertion
+bundle: assertion
+mode: default
+content:
+  field_image:
+    weight: 1
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_recipient:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  name:
+    label: visually_hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_badge: true
+  field_evidence: true
+  field_expires: true
+  field_narrative: true
+  field_revocation_reason: true
+  field_revoked: true
+  user_id: true

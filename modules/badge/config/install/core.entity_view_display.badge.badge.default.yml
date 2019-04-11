@@ -1,0 +1,52 @@
+uuid: 3fd91bb5-dd2e-4719-bef0-43e2bb3d6982
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.badge.badge.field_alignment
+    - field.field.badge.badge.field_criteria
+    - field.field.badge.badge.field_description
+    - field.field.badge.badge.field_image
+    - field.field.badge.badge.field_issuer
+    - field.field.badge.badge.field_tags
+  module:
+    - badge
+    - image
+_core:
+  default_config_hash: JNG1OFZlRK7r0bhIPcL4UGjk2TXf6vVoF6-3F7hsFLI
+id: badge.badge.default
+targetEntityType: badge
+bundle: badge
+mode: default
+content:
+  field_description:
+    type: string
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  name:
+    label: visually_hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_alignment: true
+  field_criteria: true
+  field_issuer: true
+  field_tags: true
+  user_id: true

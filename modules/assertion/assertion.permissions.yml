@@ -1,0 +1,30 @@
+add assertion entities:
+  title: 'Create new Assertion entities'
+
+administer assertion entities:
+  title: 'Administer Assertion entities'
+  description: 'Allow to access the administration form to configure Assertion entities.'
+  restrict access: true
+
+delete assertion entities:
+  title: 'Delete Assertion entities'
+
+edit assertion entities:
+  title: 'Edit Assertion entities'
+
+view published assertion entities:
+  title: 'View published Assertion entities'
+
+view unpublished assertion entities:
+  title: 'View unpublished Assertion entities'
+
+view all assertion revisions:
+  title: 'View all Assertion revisions'
+
+revert all assertion revisions:
+  title: 'Revert all Assertion revisions'
+  description: 'Role requires permission <em>view Assertion revisions</em> and <em>edit rights</em> for assertion entities in question or <em>administer assertion entities</em>.'
+
+delete all assertion revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Assertion revisions</em> and <em>delete rights</em> for assertion entities in question or <em>administer assertion entities</em>.'

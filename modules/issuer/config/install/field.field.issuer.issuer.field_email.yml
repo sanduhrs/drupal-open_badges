@@ -1,0 +1,22 @@
+uuid: 5be53938-5575-4c10-8c5e-8b1091ff5e37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.issuer.field_email
+  module:
+    - issuer
+_core:
+  default_config_hash: 3gr1o82gwAe9uTfhiXe-SDa-nDlZQZvCUAG5f1S-3VA
+id: issuer.issuer.field_email
+field_name: field_email
+entity_type: issuer
+bundle: issuer
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,25 @@
+uuid: 784436c1-fd96-4f48-82c7-ca796e02de28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.issuer.field_url
+  module:
+    - issuer
+    - link
+_core:
+  default_config_hash: 9rWMykqCG0V9D4E8x2sv5enZt3MXSZp_nK1lhs1QX3w
+id: issuer.issuer.field_url
+field_name: field_url
+entity_type: issuer
+bundle: issuer
+label: URL
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

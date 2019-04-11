@@ -1,0 +1,23 @@
+{
+  "name": "drupal/open_badges",
+  "type": "drupal-module",
+  "description": "Mozilla Open Badges",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/open_badges",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/open_badges",
+    "source": "http://cgit.drupalcode.org/open_badges"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "uomcs/php-png": "dev-master"
+  }
+}

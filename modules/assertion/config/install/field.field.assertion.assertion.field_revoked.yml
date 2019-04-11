@@ -1,0 +1,26 @@
+uuid: 292ce22a-18e2-4078-bffb-dad0e3fc7a17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.assertion.field_revoked
+  module:
+    - assertion
+_core:
+  default_config_hash: 7XHeYg1nY4cUZGr5E1x5ProYO_GR6U5c3DEJ6Iy7OjE
+id: assertion.assertion.field_revoked
+field_name: field_revoked
+entity_type: assertion
+bundle: assertion
+label: Revoked
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

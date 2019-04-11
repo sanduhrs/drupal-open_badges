@@ -1,0 +1,25 @@
+uuid: f4007a67-281a-414e-b77f-6022f5bc3826
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipient.field_url
+  module:
+    - link
+    - recipient
+_core:
+  default_config_hash: wmi4fAHGaLj09lX0I5Ad8JH7MNPZGrtq_xVkEouauE4
+id: recipient.recipient.field_url
+field_name: field_url
+entity_type: recipient
+bundle: recipient
+label: URL
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

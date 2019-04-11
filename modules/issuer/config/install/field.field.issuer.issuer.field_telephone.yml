@@ -1,0 +1,23 @@
+uuid: d9ae003f-9f41-4816-b5e8-0900874291e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.issuer.field_telephone
+  module:
+    - issuer
+    - telephone
+_core:
+  default_config_hash: Pel1HXm8JmTwplcYMSohIOWFrQjlez8czBEQ3VRvyl8
+id: issuer.issuer.field_telephone
+field_name: field_telephone
+entity_type: issuer
+bundle: issuer
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

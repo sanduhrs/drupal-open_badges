@@ -1,0 +1,21 @@
+uuid: d69d9152-dbcc-4b85-b26f-69ae22f6a908
+langcode: en
+status: true
+dependencies:
+  module:
+    - issuer
+_core:
+  default_config_hash: qvHS4ur6fh2bznMYgZ-ynVrqTXMFameMktfkd_cGtfA
+id: issuer.field_description
+field_name: field_description
+entity_type: issuer
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

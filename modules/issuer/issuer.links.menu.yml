@@ -1,0 +1,5 @@
+issuer.admin.structure.settings:
+  title: 'Issuer settings'
+  description: 'Configure Issuer entities'
+  route_name: issuer.settings
+  parent: system.admin_structure

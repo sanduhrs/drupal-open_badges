@@ -1,0 +1,20 @@
+uuid: 544b6971-5f39-4e80-a136-6a3e85c30e42
+langcode: en
+status: true
+dependencies:
+  module:
+    - badge
+    - taxonomy
+id: badge.field_tags
+field_name: field_tags
+entity_type: badge
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
