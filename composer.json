@@ -8,14 +8,8 @@
   "minimum-stability": "dev",
   "support": {
     "issues": "https://www.drupal.org/project/issues/open_badges",
-    "source": "http://cgit.drupalcode.org/open_badges"
+    "source": "https://git.drupalcode.org/project/open_badges"
   },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
-    }
-  ],
   "require": {
     "ext-json": "*",
     "uomcs/php-png": "dev-master"
